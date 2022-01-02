@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:linear-gradient(150deg, #f93d66, #6d47d9);
+    font-size: 15px;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 10px;
+    list-style: none;
+}
+.yellow-btn{
+    background: hsla(51, 100%, 50%, 0.822);
+    padding: 11px;
+    width: 190px;
+    height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.flex{
+    display: flex;
+    padding: 20px 50px;
+}
+.flex-column{
+    flex-direction: column;
+    text-align: center;
+}
+.flex-column div{
+    background:hsla(51, 100%, 50%, 0.822);
+    margin: auto;
+    padding: 90px 170px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.flex1{
+    display: flex;
+    padding: 25px 35px;
+}
+.game{
+    flex-direction: row;
+}
+.game div{
+    background: white;
+    margin: 10px;
+    padding: 90px 90px;
+    border-radius: 11px;
+    font-size: 15px;
+}
+.pic img{
+    background: white;
+    width: 351px;
+    padding: 5px 50px;
+    display: flex;
+}
+.pic{
+    display: flex;
+    background: white;
+    padding: 90px 50px;
+    margin: 5px 25px;
+}
+.pic p{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+footer{
+    height: 5vh;
+    display: grid;
+    color:black;
+    font-family: 'Merriweather', serif;
+    justify-content: center;
+}
+h2{
+    text-align: center; 
+    margin: 35px auto;
+    color: black;
+    font-size: 30px;
+    max-width: 600px;
+    position: relative;
+}
+h2:before{
+    content: "";
+    display: block;
+    width: 90px;
+    height: 5px;
+    background:hsla(51, 100%, 50%, 0.822);
+    left: 85px;
+    top: 50%;
+    position: absolute;
+  }
+h2:after{
+    content: "";
+    display: block;
+    width: 90px;
+    height: 5px;
+    background:hsla(51, 100%, 50%, 0.822);
+    right: 85px;
+    top: 50%;
+    position: absolute;
+  }
+.images img{
+    margin: 15px;
+}
